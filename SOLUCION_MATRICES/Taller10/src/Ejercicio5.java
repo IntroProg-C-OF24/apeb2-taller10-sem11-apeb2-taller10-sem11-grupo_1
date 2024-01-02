@@ -52,7 +52,7 @@ public class Ejercicio5 {
         System.out.println("============");
         System.out.println("RESULTADOS");
         for (int i = 0; i < factor1.length; i++) {
-            for (int j = 0; j < factor2[0].length; j++) {
+            for (int j = 0; j < factor2[i].length; j++) {
                 for (int k = 0; k < factor2.length; k++) {
                     resultado[i][j] += factor1[i][k] * factor2[k][j];
                 }
