@@ -125,3 +125,45 @@ public class Ejercicio6 {
         sc.close();
     }
 }
+/*
+ * ESCOJA LA OPERACION A REALIZAR | 1. Suma | 2. Resta 
+1
+Ingrese el tamaño de la primera matriz en filas
+2
+Ingrese el tamaño de la primera matriz en columnas
+2
+Ingrese el tamaño de la segunda matriz en filas
+2
+Ingrese el tamaño de la segunda matriz en columnas
+2
+Matrices a Sumar
+Primera matriz
+ [8] [-6]
+ [-3] [-4]
+Segunda matriz
+ [7] [-2]
+ [-3] [-7]
+RESULTADOS
+ [15]  [-8]
+ [-6]  [-11]
+ ESCOJA LA OPERACION A REALIZAR | 1. Suma | 2. Resta 
+2
+Ingrese el tamaño de la primera matriz en filas
+2
+Ingrese el tamaño de la primera matriz en columnas
+2
+Ingrese el tamaño de la segunda matriz en filas
+2
+Ingrese el tamaño de la segunda matriz en columnas
+2
+Matrices a Restar
+Primera matriz
+ [-3] [5]
+ [-1] [3]
+Segunda matriz
+ [4] [9]
+ [0] [3]
+RESULTADOS
+ [-7]  [-4]
+ [-1]  [0]
+ */

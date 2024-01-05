@@ -31,3 +31,12 @@ public class Ejercicio8 {
         }
     }
 }
+/*
+ *  [1] [-8] [-1]
+ [4] [8] [1]
+ [-5] [-4] [8]
+Elementos ubicados sobre la diagonal principal:
+-8,-1,1,
+Elementos ubicados bajo la diagonal principal:
+4,-5,-4,
+ */

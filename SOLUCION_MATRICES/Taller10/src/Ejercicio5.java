@@ -51,9 +51,9 @@ public class Ejercicio5 {
                 }
         System.out.println("============");
         System.out.println("RESULTADOS");
-        for (int i = 0; i < factor1.length; i++) {
-            for (int j = 0; j < factor2[i].length; j++) {
-                for (int k = 0; k < factor2.length; k++) {
+        for (int i = 0; i < resultado.length; i++) {
+            for (int j = 0; j < resultado[i].length; j++) {
+                for (int k = 0; k < resultado.length; k++) {
                     resultado[i][j] += factor1[i][k] * factor2[k][j];
                 }
             }
@@ -67,3 +67,25 @@ public class Ejercicio5 {
         sc.close();
     }
 }
+/*
+ * Ingrese el tamaño de la primera matriz en filas
+2
+Ingrese el tamaño de la primera matriz en columnas
+3
+Ingrese el tamaño de la segunda matriz en filas
+3
+Ingrese el tamaño de la segunda matriz en columnas
+2
+LLENADO DE MATRICES CON NUMEROS ENTRE -9 Y 9
+Primera matriz
+ [7] [2] [2]
+ [5] [1] [-6]
+Segunda matriz
+ [9] [-5]
+ [4] [9]
+ [9] [-5]
+============
+RESULTADOS
+ [71]  [-17]
+ [49]  [-16]
+ */

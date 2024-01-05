@@ -35,3 +35,12 @@ public class Ejercicio7 {
         }
     }
 }
+/*
+ * [7] [-8] [6] 
+[2] [-9] [-8]
+[-3] [8] [-8]
+Elementos ubicados sobre la diagonal secundaria:
+7, -8, 2,
+Elementos ubicados bajo la diagonal secundaria:
+6, -9, -8, -3, 8, -8,
+ */

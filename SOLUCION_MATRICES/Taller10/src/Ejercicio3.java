@@ -77,3 +77,41 @@ public class Ejercicio3 {
         sc.close();
     }
 }
+/*
+ * TIENDA DE JUGUETES 
+===PRODUCTOS===
+1 Carro de Juguete  $20.0 - 100.0
+2 Muñeco de Tela  $15.0 - 150.0
+3 Conjunto de Construcción  $12.0 - 80.0
+4 Figuras de Acción  $10.0 - 120.0
+5 Rompecabezas  $8.0 - 70.0
+6 Bicicleta de Juego  $30.0 - 50.0
+Insete el codigo del producto
+1
+Cuantos Carro de Juguete desea llevar
+10 
+¿Desea ingresar mas? | 1. Si | 2. No
+1
+===PRODUCTOS===
+1 Carro de Juguete  $20.0 - 90.0
+2 Muñeco de Tela  $15.0 - 150.0
+3 Conjunto de Construcción  $12.0 - 80.0
+4 Figuras de Acción  $10.0 - 120.0
+5 Rompecabezas  $8.0 - 70.0
+6 Bicicleta de Juego  $30.0 - 50.0
+Insete el codigo del producto
+4
+Cuantos Figuras de Acción desea llevar
+120
+¿Desea ingresar mas? | 1. Si | 2. No
+2
+====FACTURA====
+Nombre  Precio  Unidades
+1.-Carro de Juguete 20.0 10.0
+2.-Figuras de Acción 10.0 120.0
+SUBTOTAL: 1400.0
+IVA: 0.12
+SUBTOTAL IVA: 1568.0
+DESCUENTO 20%: 313.6
+TOTAL: 1254.4
+ */

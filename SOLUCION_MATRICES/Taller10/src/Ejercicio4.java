@@ -43,16 +43,14 @@ public class Ejercicio4 {
             juego[fila][colum] = " [" + dato + "] ";
             cont++;
             for (int i = 0; i < juego.length; i++) {
-                if (juego[i][0].equals(" [" + dato + "] ") && juego[i][1].equals(" [" + dato + "] ")
-                        && juego[i][2].equals(" [" + dato + "] ")) {
+                if (juego[i][0].equals(" [" + dato + "] ") && juego[i][1].equals(" [" + dato + "] ")&& juego[i][2].equals(" [" + dato + "] ")) {
                     start = false;
                     gano = true;
                     break;
                 }
             }
             for (int i = 0; i < juego.length; i++) {
-                if (juego[0][i].equals(" [" + dato + "] ") && juego[1][i].equals(" [" + dato + "] ")
-                        && juego[2][i].equals(" [" + dato + "] ")) {
+                if (juego[0][i].equals(" [" + dato + "] ") && juego[1][i].equals(" [" + dato + "] ") && juego[2][i].equals(" [" + dato + "] ")) {
                     start = false;
                     gano = true;
                     break;
@@ -85,3 +83,60 @@ public class Ejercicio4 {
         sc.close();
     }
 }
+/*
+ * ===/TRES EN RAYA/===
+    1    2    3
+1  [ ]  [ ]  [ ]
+2  [ ]  [ ]  [ ]
+3  [ ]  [ ]  [ ]
+Ingrese la fila (1-3)
+1
+Ingrese la columna (1-3)
+1
+Ingrese la X o 0
+x
+    1    2    3
+1  [X]  [ ]  [ ]
+2  [ ]  [ ]  [ ]
+3  [ ]  [ ]  [ ]
+Ingrese la fila (1-3)
+1
+Ingrese la columna (1-3)
+2
+Ingrese la X o 0
+0
+    1    2    3
+1  [X]  [0]  [ ]
+2  [ ]  [ ]  [ ]
+3  [ ]  [ ]  [ ]
+Ingrese la fila (1-3)
+2
+Ingrese la columna (1-3)
+2
+Ingrese la X o 0
+x
+    1    2    3
+1  [X]  [0]  [ ]
+2  [ ]  [X]  [ ]
+3  [ ]  [ ]  [ ]
+Ingrese la fila (1-3)
+3
+Ingrese la columna (1-3)
+2
+Ingrese la X o 0
+0
+    1    2    3
+1  [X]  [0]  [ ]
+2  [ ]  [X]  [ ]
+3  [ ]  [0]  [ ]
+Ingrese la fila (1-3)
+3
+Ingrese la columna (1-3)
+3
+Ingrese la X o 0
+x
+FELICIDADES GAN0 X
+1  [X]  [0]  [ ]
+2  [ ]  [X]  [ ]
+3  [ ]  [0]  [X]
+ */

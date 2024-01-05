@@ -126,3 +126,59 @@ public class Ejercicio2 {
         sc.close();
     } 
 }
+/*
+ * Seleccione opcion | 1. Agregar | 2. Actualizar existencias | 3. Buscar producto | 4. Eliminar producto | 5. Mostrar productos | 6. Salir
+1
+====== Agregar ======
+Igrese el nombre del producto
+Dorito
+Ingrese el precio y Cantidad
+0,50
+Ingrese el precio y Cantidad
+50
+Seleccione opcion | 1. Agregar | 2. Actualizar existencias | 3. Buscar producto | 4. Eliminar producto | 5. Mostrar productos | 6. Salir
+1
+====== Agregar ======
+Igrese el nombre del producto
+Ruflex 
+Ingrese el precio y Cantidad
+0,6 
+Ingrese el precio y Cantidad
+60
+Seleccione opcion | 1. Agregar | 2. Actualizar existencias | 3. Buscar producto | 4. Eliminar producto | 5. Mostrar productos | 6. Salir
+2
+====== Acutualizar Existencias ======
+//-Lista de Productos-//
+1. Nombre: Dorito $0.5 Cantidad:50.0
+2. Nombre: Ruflex $0.6 Cantidad:60.0
+Seleccione La posicion del producto
+2
+Ingrese el Nombre de la nueva existencia
+Tortolines
+Ingrese el Precio de la nueva existencia
+0,60
+Ingrese el Cantidad de la nueva existencia
+70
+Seleccione opcion | 1. Agregar | 2. Actualizar existencias | 3. Buscar producto | 4. Eliminar producto | 5. Mostrar productos | 6. Salir
+3
+====== Buscar Producto ======
+Ingrese la posicion del producto
+1
+1. Nombre: Dorito $0.5 Cantidad: 50.0
+Seleccione opcion | 1. Agregar | 2. Actualizar existencias | 3. Buscar producto | 4. Eliminar producto | 5. Mostrar productos | 6. Salir     
+4
+====== Eliminar Producto ======
+//-Lista de Productos-//
+1. Nombre: Dorito $0.5 Cantidad:50.0
+2. Nombre: Tortolines $0.6 Cantidad:70.0
+Ingrese la posicion del producto a eliminar
+2
+Seguro que quieres eliminar el produto: Tortolines 1. Si  | 2. No
+1
+Seleccione opcion | 1. Agregar | 2. Actualizar existencias | 3. Buscar producto | 4. Eliminar producto | 5. Mostrar productos | 6. Salir
+5
+//-Lista de Productos-//
+1. Nombre: Dorito $0.5 Cantidad:50.0
+Seleccione opcion | 1. Agregar | 2. Actualizar existencias | 3. Buscar producto | 4. Eliminar producto | 5. Mostrar productos | 6. Salir     
+6
+ */
